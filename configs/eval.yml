@@ -1,0 +1,13 @@
+dataset:
+  labels: path/to/labels.txt # List of labels
+  test: path/to/eval.txt # List of images and masks path
+general:
+  gpu: 0
+  mode: eval
+  num_workers: 4
+  path: path/to/the/project/
+model:
+  batch_size: 8
+  encoder: timm-regnetx_002
+  height: 256
+  width: 256

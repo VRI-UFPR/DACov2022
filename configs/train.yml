@@ -1,0 +1,22 @@
+augmentation:
+  augmentation_prob: 0.2
+  augmentations:
+  - flip
+dataset:
+  labels: path/to/labels.txt # List of labels
+  train: path/to/train.txt # List of images and masks path  
+  valid: path/to/valid.txt # List of images and masks path  
+general:
+  dataset: dataset_name
+  experiment: experiment_name
+  gpu: 0
+  mode: train
+  num_workers: 4
+model:
+  batch_size: 8
+  decoder: unetplusplus
+  encoder: resnet50
+  height: 256
+  learning_rate: 0.001
+  num_epochs: 50
+  width: 256
