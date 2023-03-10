@@ -47,3 +47,20 @@ path/to/image3.jpg</p>
 
 <h2>Execute:</h2>
 <p>python augmentation.py gan</p>
+
+<h2>Citation</h2>
+
+```
+@article{dacov2023,
+author = {Bruno A. Krinski and Daniel V. Ruiz and Rayson Laroca and Eduardo Todt},
+title = {DACov: a deeper analysis of data augmentation on the computed tomography segmentation problem},
+journal = {Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization},
+volume = {0},
+number = {0},
+pages = {1-18},
+year  = {2023},
+publisher = {Taylor & Francis},
+doi = {10.1080/21681163.2023.2183807},
+URL = {https://doi.org/10.1080/21681163.2023.2183807},
+}
+```
